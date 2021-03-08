@@ -1,0 +1,10 @@
+Variables:
+
+count_str (int) - количество строк
+
+open_pos (char) - символ открытой позиции
+
+obtacle_pos (char) - символ закрытой позиции 
+
+fill_pos (char) - символ заливки 
+
