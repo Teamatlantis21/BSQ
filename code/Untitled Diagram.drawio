@@ -1,1 +1,34 @@
-<mxfile host="app.diagrams.net" modified="2021-03-09T17:01:36.079Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="um1_Mw8pCH-TUzywx4Ua" version="14.4.4" type="github"><diagram id="qBOM4guG4TwAPaMPiQVN" name="Page-1">jZNNb4QgEIZ/jccmKlnruXZtD930wzQ9szAVUhSDWLW/vlgHP7LZpCeHZwYY3ncMSFYND4Y24qQ5qCAO+RCQ+yCO4zBJ3Gci40yiKEVSGsmRraCQP4AwRNpJDu2u0GqtrGz2kOm6BmZ3jBqj+33Zp1b7WxtawgUoGFWX9ENyK2aaHsKVP4Ishb85CjFTUV+MoBWU636DyDEgmdHazlE1ZKAm9bwu8778SnZpzEBt/7OBvXXvY1513CQtKV5f8uSU3+Ap31R1+GBs1o5eAdd3M4VsVLLmYEhA7nohLRQNZVOid9Y7Jmyl3Cpy4Vl3rpI/nRdA2VdpJvrcWXcMIG9nv6ODi7ETMBaGq0+MFuHcyIGuwJrRlfh5u0WtcdqIN6NfrUsQiY1rKTKKw1IuJ696ugAl9cvVur/c5g8gx18=</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-03-09T17:38:14.304Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="kHQCDkWXVR-JxY3wetH5" version="14.4.4" type="github">
+  <diagram id="qBOM4guG4TwAPaMPiQVN" name="Page-1">
+    <mxGraphModel dx="1139" dy="1694" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="MUz05nH1J-KRpwicnN0r-3" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;int main(int count, char **args)&lt;/i&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+&amp;nbsp;int arg_error(char *arg, char open_pos, char obtacle_pos, char fill_pos)&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ int map_error(char *file_name, int desc, char first, char second)&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="690" width="400" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="MUz05nH1J-KRpwicnN0r-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.475;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="MUz05nH1J-KRpwicnN0r-4" target="MUz05nH1J-KRpwicnN0r-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MUz05nH1J-KRpwicnN0r-4" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center ; text-decoration: underline&quot;&gt;&lt;b&gt;ERROR.H&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 4px 0px 0px&quot;&gt;+ arg_error.h&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px&quot;&gt;+ map_error.h&lt;br&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="510" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="MUz05nH1J-KRpwicnN0r-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.453;entryY=-0.02;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="MUz05nH1J-KRpwicnN0r-5" target="MUz05nH1J-KRpwicnN0r-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MUz05nH1J-KRpwicnN0r-5" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center ; text-decoration: underline&quot;&gt;&lt;b&gt;arg_error.h&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 4px 0px 0px&quot;&gt;+ &lt;b&gt;arg_error():&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px&quot;&gt;+&amp;nbsp;int arg_format(char *arg)&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px&quot;&gt;+&amp;nbsp;int arg_not_char(char *arg):&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px&quot;&gt;+&amp;nbsp;int arg_repeat(char open_pos, char obtacle_pos, char fill_pos)&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="270" width="350" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="MUz05nH1J-KRpwicnN0r-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.454;entryY=-0.031;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="MUz05nH1J-KRpwicnN0r-8" target="MUz05nH1J-KRpwicnN0r-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MUz05nH1J-KRpwicnN0r-8" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center ; text-decoration: underline&quot;&gt;&lt;b&gt;map_error.h&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 4px 0px 0px&quot;&gt;+ &lt;b&gt;map_error():&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px&quot;&gt;+&amp;nbsp;int map_lines_count(char *file_name, int desc)&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px&quot;&gt;+ int map_dis_char(char *file_name, int desc, char first, char second)&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px&quot;&gt;+&amp;nbsp;int map_lenght_error(char *file_name, int desc)&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="270" width="420" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="MUz05nH1J-KRpwicnN0r-12" value="" style="rounded=0;whiteSpace=wrap;html=1;opacity=30;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="190" y="160" width="860" height="460" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
